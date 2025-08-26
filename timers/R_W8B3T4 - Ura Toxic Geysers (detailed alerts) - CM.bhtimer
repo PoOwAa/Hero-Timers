@@ -133,32 +133,52 @@
           "warningDuration": 24, "timestamps": [48],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "SKIP Toxic 9", "fillColor": [173, 173, 17, 0],
+        { "warning": "Toxic 9 Barna - Rumi", "fillColor": [173, 173, 17, 0],
           "warningDuration": 24, "timestamps": [72],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "SKIP Toxic 10", "fillColor": [173, 173, 17, 0],
+        { "warning": "Toxic 10 Rumi - Andy", "fillColor": [173, 173, 17, 0],
           "warningDuration": 24, "timestamps": [96],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "SKIP Toxic 11", "fillColor": [173, 173, 17, 0],
+        { "warning": "Toxic 11 Andy - Barna", "fillColor": [173, 173, 17, 0],
           "warningDuration": 24, "timestamps": [120],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "Toxic 12 Andy - Barna", "fillColor": [173, 173, 17, 0],
+        { "warning": "Toxic 12 Barna - Rumi", "fillColor": [173, 173, 17, 0],
           "warningDuration": 24, "timestamps": [144],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "Toxic 13 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+        { "warning": "Toxic 13 Rumi - Andy", "fillColor": [173, 173, 17, 0],
           "warningDuration": 24, "timestamps": [168],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "Toxic 14 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+        { "warning": "Toxic 14 Andy - Barna", "fillColor": [173, 173, 17, 0],
           "warningDuration": 24, "timestamps": [192],
           "icon": "Assets/Raids/Toxic Geyser.png"
         },
-        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
-          "warningDuration": 24, "timestamps": [48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336],
+        { "warning": "Toxic 1 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [216],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 2 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [240],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 3 Andy - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [264],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 4 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [288],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 5 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [312],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 6 Andy - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [336],
           "icon": "Assets/Raids/Toxic Geyser.png"
         }
       ]

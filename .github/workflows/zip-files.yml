@@ -10,8 +10,8 @@ jobs:
         with:
           files: /timers
           recursive: true
-          dest: Hero.Timer.Pack.zip
+          dest: AndyRum.Timer.Pack.zip
       - uses: actions/upload-artifact@v4
         with:
-          name: Heros-Timer-Pack-Artifact
-          path: ${{ github.workspace }}/Hero.Timer.Pack.zip
+          name: AndyRum-Timer-Pack-Artifact
+          path: ${{ github.workspace }}/AndyRum.Timer.Pack.zip

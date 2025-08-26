@@ -1,0 +1,167 @@
+{
+  "id": "andyrum.timers.raid.w8.b3.4_CM_toxicGeyserDetailedAlerts",
+  "name": "Ura (CM)\nToxic Geyser - Detailed Alerts",
+  "category": "W8: Mount Balrior",
+  "description": "• Type: Hotkey ( Trigger Key 0 )\n• Automatically begins on fight start.\n• Activate when:\n  • Ura spawns Phase 2's 1st toxic geyser in the middle of the arena.\n(marked with a dot + border when timer starts)\n  • Ura reaches 40% health.\n---Displays---\n• When the next toxic geyser spawns.\n• Where the 1st geyser for Phase 2 will spawn.",
+  "author": "\nAndyRum.9741",
+  "icon": "Assets/Raids/W8B3cm.png",
+  "map": "1564",
+  "reset": { "position": [194.095, 403.29, 265.844], "radius": 15,
+    "requireEntry": true
+  },
+  "phases": [
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 1",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        { "warning": "Spawn: Toxic Geyser 1", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [10],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 1-2 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [22],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser 3", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [34],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 3-4 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [46],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser 5", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [58],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 5-6 Andy - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [70],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "SKIP Toxic 7", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [82],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser 8", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [94],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 8-9 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 10, "timestamps": [106],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        }
+      ],
+      //Markers
+      "markers": [
+        //Phase 1 => 2 Geyser spawn
+        { "position": [161.719, 228.768, 270.066], "rotation": [180, 0, 0], "size": 1.75, "fadeCenter": false, "opacity": 0.4,
+          "texture": "Assets/General/dot.png", "duration": 300, "timestamps": [0]
+        },
+        { "position": [161.719, 228.768, 270.066], "rotation": [180, 0, 0], "size": 1.75, "fadeCenter": false, "opacity": 0.5,
+          "texture": "Assets/General/dot-border.png", "duration": 300, "timestamps": [0]
+        }
+      ]
+    },
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 2",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        { "warning": "Toxic 7-10 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [24],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 8 Andy - Fill", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [48],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 9 Fill - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [72],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 10 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [96],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 11 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [120],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 12 Andy - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [144],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 13 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [168],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 14 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [192],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        }
+      ]
+    },
+    {
+      "name": "Godscream Ura - Toxic Geysers Phase 3",
+      "start": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "requireEntry": true
+      },
+      "finish": { "position": [145.639, 235.136, 269.928], "radius": 90,
+        "type": "key", "keyBind": "0",
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        { "warning": "Toxic 7 Andy/Rumi - Fill", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [24],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 8 Fill - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [48],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "SKIP Toxic 9", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [72],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "SKIP Toxic 10", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [96],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "SKIP Toxic 11", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [120],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 12 Andy - Barna", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [144],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 13 Barna - Rumi", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [168],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Toxic 14 Rumi - Andy", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [192],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        },
+        { "warning": "Spawn: Toxic Geyser", "fillColor": [173, 173, 17, 0],
+          "warningDuration": 24, "timestamps": [48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336],
+          "icon": "Assets/Raids/Toxic Geyser.png"
+        }
+      ]
+    }
+  ]
+}

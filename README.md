@@ -1,4 +1,4 @@
-# Hero's Timer Pack
+# Hero's Timer Pack - Modified by AndyRum
 
 These are timers by QuitarHero created for Charr's Timer Module.
 
